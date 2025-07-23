@@ -1,12 +1,12 @@
 import { Grid } from '@mui/material';
 import './App.css'
-import HeaderUI from '/workspaces/dashboard/src/assets/components/HeaderUI.tsx';
-import AlertUI from '/workspaces/dashboard/src/assets/components/AlertUI.tsx';
-import SelectorUI from '/workspaces/dashboard/src/assets/components/SelectorUI.tsx';
-import IndicatorUI from '/workspaces/dashboard/src/assets/components/IndicatorUI.tsx'; // Importa IndicatorUI
+import HeaderUI from '/workspaces/dashb/src/assets/components/HeaderUI.tsx';
+import AlertUI from '/workspaces/dashb/src/assets/components/AlertUI.tsx';
+import SelectorUI from '/workspaces/dashb/src/assets/components/SelectorUI.tsx';
+import IndicatorUI from '/workspaces/dashb/src/assets/components/IndicatorUI.tsx'; // Importa IndicatorUI
 import DataFetcher from './functions/DataFetcher';
-import TableUI from '/workspaces/dashboard/src/assets/components/TableUI.tsx';
-import ChartUI from '/workspaces/dashboard/src/assets/components/ChartUI.tsx';
+import TableUI from '/workspaces/dashb/src/assets/components/TableUI.tsx';
+import ChartUI from '/workspaces/dashb/src/assets/components/ChartUI.tsx';
 
 function App() {
   const dataFetcherOutput = DataFetcher();
